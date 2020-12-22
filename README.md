@@ -21,8 +21,7 @@ Jumlah host pada subnet GRESIK 210 Host <br/>
 
 ![Gambar](https://github.com/riskiferdian/Laporan_Praktikum_Modul_5_A13/blob/main/images/2.png)
 
-## (B) karena kalian telah mempelajari Subnetting dan Routing, Bibah meminta kalian untuk membuat <br/>
-topologi tersebut menggunakan teknik CIDR atau VLSM. Setelah melakukan subnetting,  <br/>
+## (B) karena kalian telah mempelajari Subnetting dan Routing, Bibah meminta kalian untuk membuat topologi tersebut menggunakan teknik CIDR atau VLSM. Setelah melakukan subnetting,  <br/>
 
 ## (C) kalian juga diharuskan melakukan routing agar setiap perangkat pada jaringan tersebut dapat terhubung. <br/>
 
