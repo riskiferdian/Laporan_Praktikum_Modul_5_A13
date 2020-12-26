@@ -29,7 +29,7 @@ Jumlah host pada subnet GRESIK 210 Host <br/>
 
 **Menggunakan Teknik CIDR** <br/>
 
-![Gambar](https://github.com/riskiferdian/Laporan_Praktikum_Modul_5_A13/blob/main/images/1.png)
+![Gambar](https://github.com/riskiferdian/Laporan_Praktikum_Modul_5_A13/blob/main/images/3.png)
 
 **Tree**
 
