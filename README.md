@@ -86,23 +86,23 @@ b. Buka MALANG dan update package lists dengan menjalankan command:   <br/>
 c. Setalah melakukan update silahkan install aplikasi bind9 pada MALANG dengan perintah: <br/>
 *apt-get install bind9* <br/>
 
-d. Lakukan perintah pada MALANG. Isikan seperti berikut: <br/>
+d. Lakukan perintah pada MALANG. Isikan seperti berikut (Konfigurasi berikut untuk nomor 6): <br/>
  *nano /etc/bind/named.conf.local* <br/>
 
 e. Isikan configurasi domain  sesuai dengan syntax berikut: <br/>
-*zone "domainmu.com" { <br/>
+*zone "jarkom2020.com" { <br/>
 	type master; <br/>
-	file "/etc/bind/jarkom/domainmu.com"; <br/>
+	file "/etc/bind/jarkom/jarkom2020.com"; <br/>
 };* <br/>
 
 f. Buat folder jarkom di dalam /etc/bind <br/>
 *mkdir /etc/bind/jarkom* <br/>
 
 g. Copykan file db.local pada path /etc/bind ke dalam folder jarkom yang baru saja dibuat dan ubah namanya menjadi domainmu.com <br/>
-*cp /etc/bind/db.local /etc/bind/jarkom/domainmu.com* <br/>
+*cp /etc/bind/db.local /etc/bind/jarkom/jarkom2020.com* <br/>
 
 h. Kemudian buka file domainmu.com dan edit IP MALANG menjadi 192.168.6.1 (IP TEMP) <br/>
-*nano /etc/bind/jarkom/domainmu.com* <br/>
+*nano /etc/bind/jarkom/jarkom2020.com* <br/>
 
 i. Restart bind9 dengan perintah <br/>
 *service bind9 restart* <br/>
